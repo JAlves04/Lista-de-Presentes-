@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #08125f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.adicionar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.adicionar input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.adicionar button {
+  padding: 10px 15px;
+  background-color: #2ecc71;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  background: #eeeeee;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+
+li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* botão reservar */
+.reservar {
+  background-color: #3498db;
+  border: none;
+  padding: 6px 10px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* estilo quando reservado */
+.reservado {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.remover {
+  background-color: #e74c3c;
+  border: none;
+  padding: 6px 10px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.reservado {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
